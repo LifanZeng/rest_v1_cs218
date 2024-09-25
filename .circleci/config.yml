@@ -32,7 +32,8 @@ jobs:
       - run:
           name: Running rest_api_3_welcomeTo218
           # Listening on http://localhost:8080/
-          command: python rest_api_3_welcomeTo218.py
+          ####z command: python rest_api_3_welcomeTo218.py
+          command: python --version
       #- store_test_results:
           #path: test-reports
       #- store_artifacts:
